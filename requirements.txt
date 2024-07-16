@@ -2,4 +2,4 @@ Flask
 Gunicorn
 huggingface-hub
 tqdm
-flask-corse
+flask-cors
