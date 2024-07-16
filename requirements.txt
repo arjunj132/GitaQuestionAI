@@ -1,4 +1,5 @@
 Flask
 Gunicorn
-huggingface_hub
+huggingface-hub
 tqdm
+flask-corse
