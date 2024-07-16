@@ -4,10 +4,8 @@ import os
 import random
 import http.client
 from tqdm import tqdm
-import os
 
 
-os.environ['HOME']
 def generate():
     conn = http.client.HTTPSConnection("bhagavad-gita3.p.rapidapi.com")
 
