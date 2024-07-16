@@ -95,7 +95,6 @@ Remember, do not respond any other text other than the JSON. Make sure you compl
         result = result.replace('shloka', 'shlokas')
         result = result.replace('verse', 'verses')
         result = result.replace('teaching', 'teachings')
-        print(result)
         try:
             result = json.loads(result)
             result["answer"] = result["answer"].upper()
