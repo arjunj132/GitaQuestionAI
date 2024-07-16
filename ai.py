@@ -37,10 +37,8 @@ def generate():
     ]
 
 
-    #chapter = random.randint(1, 18)
-    chapter = 5
-    #shlokarange = random.randint(1, int(shlokas[chapter]))
-    shlokarange = 2
+    chapter = random.randint(1, 18)
+    shlokarange = random.randint(1, int(shlokas[chapter]))
     fullresults = []
     for x in tqdm(range(shlokarange*10-9, shlokarange*10+1)):
         tqdm.write("Calling Shloka")
